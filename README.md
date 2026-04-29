@@ -7,10 +7,12 @@ The project aims to isolate the target signal, extract the global raw asymmetry 
 
 **Note on Methodology:** While the full experimental study compared multiple background subtraction techniques, this repository specifically showcases the **Sideband Subtraction method** (modelled with 2D Chebyshev polynomials) for evaluating local CP asymmetry. 
 
-## Contributors
-This entire project, including the experimental analysis and codebase, was a joint collaboration:
-* **Min Ki Hong**
-* **Ashwin Knight** ## Data Availability
+## Authorship & Collaboration
+* **Report Author:** Min Ki Hong
+* **Experimental Workflow:** The underlying data analysis workflow and experiment were performed in collaboration with Ashwin Knight.
+* **Specific Contribution:** The **vetoing process** and associated code for charm resonance removal (Module 2) were developed solely by **Ashwin Knight**.
+
+## Data Availability
 * **No data is provided in this repository.** The raw datasets (e.g., `trees_up.parquet`, `trees_down.parquet`) originating from the LHCb detector are omitted due to file size constraints and access restrictions. The code provided here serves to demonstrate the analytical workflow and methodology.
 
 ## Repository Structure & Pipeline
