@@ -9,7 +9,7 @@ The project aims to isolate the target signal, extract the global raw asymmetry 
 
 ## Authorship & Collaboration
 * **Report Author:** Min Ki Hong
-* **Experimental Workflow:** The underlying data analysis workflow and experiment were performed in collaboration with Ashwin Knight.
+* **Experimental Workflow:** The experiment and presentation were performed in collaboration with **Ashwin Knight**.
 * **Specific Contribution:** The **vetoing process** and associated code for charm resonance removal (Module 2) were developed solely by **Ashwin Knight**.
 
 ## Data Availability
