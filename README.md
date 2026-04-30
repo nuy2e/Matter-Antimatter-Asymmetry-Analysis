@@ -20,7 +20,7 @@ The project aims to isolate the target signal, extract the global raw asymmetry 
 The analysis pipeline is broken down into five distinct modules, meant to be executed sequentially:
 
 ### 1. Data Selection & Optimization
-* **File:** `data_selection_SNR_optimisation..py`
+* **File:** `data_selection_SNR_optimisation.py`
 * **Description:** Applies initial quality cuts and optimizes the Signal-to-Noise Ratio (SNR). It performs a grid search over Particle Identification (PID) and Impact Parameter (IP) variables, utilizing a Gaussian + Exponential fit to find the optimal cut thresholds.
 
 ### 2. Charm Resonance Vetoes
