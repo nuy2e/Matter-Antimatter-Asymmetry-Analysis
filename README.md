@@ -33,7 +33,7 @@ The analysis pipeline is broken down into five distinct modules, meant to be exe
 
 ### 4. Sideband Subtraction Modeling
 * **File:** `sideband_subtraction.py`
-* **Description:** Models the combinatorial background across the Dalitz phase space. It uses a 2D basis of Chebyshev polynomials fitted to the invariant mass sideband regions, scales the expected background to the signal region, and applies kinematic masks.
+* **Description:** Models the combinatorial background across the Dalitz phase space. It uses a 2D basis of Chebyshev polynomials fitted to the invariant mass sideband regions, scales the expected background to the signal region, and subtracts it from signal in the Dalitz plot.
 
 ### 5. Dalitz Plot Analysis
 * **File:** `Dalitz_analysis.py`
